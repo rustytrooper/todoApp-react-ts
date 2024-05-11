@@ -1,6 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { ADD_TODO } from "./reducers";
+import { todoReducer } from "./reducers";
+
 
 export const store = configureStore({
-  reducer: {}
+  reducer: {
+    todos: todoReducer
+  }
 })
