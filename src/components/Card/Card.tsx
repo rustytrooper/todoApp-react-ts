@@ -13,7 +13,7 @@ export default function Card() {
           {todo.map((el) => {
             return (
               <li key={el.id}>
-                <OneTodoForm text={el.text} />
+                <OneTodoForm text={el.text} actionPayload={el} />
               </li>
             )
           })}

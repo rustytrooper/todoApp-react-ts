@@ -1,4 +1,7 @@
 .One-todo-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   height: 20%;
   border-radius: 20px;
@@ -7,4 +10,21 @@
 p{
   padding: 5px;
   padding-left: 10px;
+}
+
+.icons-div{
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.check-icon,
+.trash-icon {
+  transition: transform 0.2s;
+}
+
+.check-icon:hover,
+.trash-icon:hover {
+  cursor: pointer;
+  transform: scale(1.2);
 }
