@@ -1,8 +1,8 @@
 import { InitStateType } from "../types/typeInitState";
 import { createSlice } from "@reduxjs/toolkit";
-// import { ActionPayloadType } from "../types/typeAction";
+import { ActionPayloadType } from "../types/typeAction";
 
-const initialState: InitStateType = {
+export const initialState: InitStateType = {
   todos: [
     { id: 1, text: 'sleep' },
     { id: 2, text: 'code' },
@@ -14,8 +14,11 @@ const todoSlice = createSlice({
   name: 'todos',
   initialState: initialState,
   reducers: {
-    ADD_TODO: (state, action) => {
-      state.todos = [action.payload, ...state.todos]
+    ADD_TODO: (state: InitStateType, action: ActionPayloadType) => {
+      return {
+        ...state,
+        todos: [action.payload, ...state.todos]
+      }
     }
   }
 })

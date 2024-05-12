@@ -1,1 +1,37 @@
+@import './components/Card/Card.css';
+@import './components/OneTodoForm/OneTodoForm.css';
+@import './components/AddTodo/AddTodoForm.css';
+@import './components/OneTodoForm/OneTodoForm.css';
 
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root { 
+  width: 100vw;
+  height: 100vh;
+  font-family: "Raleway", sans-serif;
+  background-image: url('../../../public/forest.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: rgba(215, 228, 219, 0.4);
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(215, 228, 219, 1);
+  transition: all 0.3s;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
+  background-color: gray;
+}
