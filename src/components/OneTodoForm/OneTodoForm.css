@@ -7,6 +7,8 @@
   border-radius: 20px;
   background-color: rgba(215, 228, 219, 0.4);
 }
+
+
 p{
   padding: 5px;
   padding-left: 10px;
@@ -14,6 +16,7 @@ p{
 
 .icons-div{
   width: 10%;
+  padding-right: 1%;
   display: flex;
   justify-content: space-between;
 }
@@ -27,4 +30,8 @@ p{
 .trash-icon:hover {
   cursor: pointer;
   transform: scale(1.2);
+}
+
+.done {
+  text-decoration: line-through;
 }

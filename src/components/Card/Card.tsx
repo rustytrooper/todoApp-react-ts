@@ -6,14 +6,14 @@ import { useSelector } from "react-redux";
 export default function Card() {
   const todo = useSelector((state: StateStoreType) => state.todos.todos)
   return (
-    <div className="card">
+    <div className="card" id='card'>
       <AddTodoForm />
-      <div className="card-todos-wrapper">
+      <div className="card-todos-wrapper" id='card-wrapper'>
         <ul className="card-ul">
           {todo.map((el) => {
             return (
               <li key={el.id}>
-                <OneTodoForm text={el.text} actionPayload={el} />
+                <OneTodoForm text={el.text} id={el.id} />
               </li>
             )
           })}

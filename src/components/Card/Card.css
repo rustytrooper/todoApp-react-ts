@@ -7,9 +7,13 @@
   width: 70%;
   height: 85%;
   margin: 0 auto;
-  background-color: rgba(215, 228, 219, 0.2);
-  
+  background-color: rgba(215, 228, 219, 0.2); 
 }
+
+.card.mountain{
+  background-color: rgba(139, 150, 187, 0.2);
+}
+
 .card-todos-wrapper {
   display: flex;
   justify-content: center;
@@ -20,6 +24,9 @@
   padding: 10px;
   margin-bottom: 5px;
   overflow-y: scroll;
+}
+.card-todos-wrapper.mountain {
+  background-color: rgba(139, 150, 187, 0.3);
 }
 .card-ul {
   width: 95%;

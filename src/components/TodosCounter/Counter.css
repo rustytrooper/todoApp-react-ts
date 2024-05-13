@@ -1,0 +1,11 @@
+.counter {
+  position: absolute;
+  width: 15%;
+  left: 10px;
+  top: 10%;
+  background-color: rgba(215, 228, 219, 0.4);
+  border-radius: 10px;
+}
+.counter.mountain {
+  background-color: rgba(139, 150, 187, 0.3);
+}

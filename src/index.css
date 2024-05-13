@@ -2,6 +2,7 @@
 @import './components/OneTodoForm/OneTodoForm.css';
 @import './components/AddTodo/AddTodoForm.css';
 @import './components/OneTodoForm/OneTodoForm.css';
+@import './components/TodosCounter/Counter.css';
 
 *, *::after, *::before {
   margin: 0;
@@ -18,6 +19,8 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+
 
 
 ::-webkit-scrollbar {

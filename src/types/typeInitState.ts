@@ -1,8 +1,10 @@
 export type TodoType = {
-  id: number,
-  text: string
+  id: string,
+  text: string,
+  done: boolean
 }
 
 export type InitStateType = {
-  todos: TodoType[]
+  todos: TodoType[],
+  completedTodos: TodoType[],
 }
