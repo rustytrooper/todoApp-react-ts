@@ -1,10 +1,9 @@
 import './App.css'
 import Card from '../Card/Card'
 
-function App() {
+export default function App() { // в разметке компонента App возвращаю компонент Card
   return (
     <Card />
   )
 }
 
-export default App
