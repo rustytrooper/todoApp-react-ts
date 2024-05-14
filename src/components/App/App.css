@@ -1,3 +1,6 @@
 #root.mountain {
  background-image: url('../../../public/mountain.jpg');
 }
+#root {
+  background-image: url('../../../public/forest.jpg');
+}
