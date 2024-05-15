@@ -35,3 +35,31 @@ p{
 .done {
   text-decoration: line-through;
 }
+
+@media (max-width: 720px) {
+  .check-icon,
+  .trash-icon {
+   transform: scale(1.2);
+}
+.icons-div {
+  width: 15%;
+  padding-right: 8px;
+  gap: 4px;
+}
+}
+
+@media (max-width: 510px) {
+  .icons-div {
+    width: 17%;
+    padding-right: 8px;
+    gap: 4px;
+  }
+}
+
+@media (max-width: 470px) {
+  .icons-div {
+    width: 20%;
+    padding-right: 8px;
+    gap: 4px;
+  }
+}

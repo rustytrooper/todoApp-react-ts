@@ -48,6 +48,7 @@ export default function AddTodoForm() { // создаю компонент фо�
           value={input}
           onChange={(e) => setInput(e.target.value)}
           placeholder="ADD YOUR TASK . . ."></input>
+
         <button className="Add-todo-button" id="add-btn" type="submit">ADD</button>
       </form>
       <div onClick={toggleTheme} className="toggle-theme" id="toggle"></div>

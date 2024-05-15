@@ -9,3 +9,38 @@
 .counter.mountain {
   background-color: rgba(139, 150, 187, 0.3);
 }
+
+@media (max-width:1050px) {
+  .counter {
+    top: 12%
+  }
+
+  p {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width:760px) {
+  .counter{
+    top: 2%;
+    width: 18%;
+  }
+}
+
+@media (max-width:630px) {
+  .counter {
+    width: 22%;
+  }
+  p {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width:470px) {
+  .counter {
+    width: 22%;
+  }
+  p {
+    font-size: 0.5rem;
+  }
+}

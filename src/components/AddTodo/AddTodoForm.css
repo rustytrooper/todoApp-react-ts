@@ -69,3 +69,27 @@ h1 {
   cursor: pointer;
   transform: scale(1.1);
 }
+
+@media (max-width:630px) {
+  h1 {
+    font-size: 20px;
+  }
+  .toggle-theme {
+    top: 2%;
+    background-size: 25px;
+    width: 35px;
+    height: 35px;
+  }
+  .Add-todo-button {
+    font-size: 12px;
+  }
+}
+
+@media (max-width:470px) {
+  .Add-todo-button {
+    font-size: 9px;
+  }
+  .Add-todo-input {
+    font-size: 10px;
+  }
+}
